@@ -1,6 +1,6 @@
 # Edinburgh
 
-Edinburgh is a clean, beautiful, and responsive portfolio theme for the Hexo static site generator.
+Edinburgh is a clean, beautiful, and responsive portfolio theme for the Hexo static site generator. View a demo of the theme [here](https://sharvaridesai.github.io/hexo-theme-edinburgh-demo/).
 
 ![Screenshot of Edinburgh theme](https://sharvaridesai.github.io/hexo-theme-edinburgh-demo/images/screenshot.png)
 
