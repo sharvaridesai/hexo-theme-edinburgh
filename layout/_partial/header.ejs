@@ -1,0 +1,16 @@
+<nav class="navbar navbar-toggleable-sm navbar-light px-1 py-3 my-3 mb-sm-5">
+  <a class="navbar-brand ml-2" href="<%- config.root %>"><%-config.title || ""%></a>
+  <button class="navbar-toggler navbar-toggler-right py-2" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse text-center" id="navbarCollapse">
+    <ul class="navbar-nav ml-auto my-auto">
+      <% for (var i in config.menu){ %>
+        <li class="nav-item">
+          <a class="nav-link" href="<%- url_for(config.menu[i]) %>"><%= i %></a>
+        </li>
+      <% } %>
+    </ul>
+    <hr class="hidden-md-up" />
+  </div>
+</nav>

@@ -1,0 +1,6 @@
+# Google Analytics Tracking ID
+google_analytics:
+
+# Default portfolio post
+default_cover_image: /images/unsplash.jpg
+default_post_title: Portfolio Item
