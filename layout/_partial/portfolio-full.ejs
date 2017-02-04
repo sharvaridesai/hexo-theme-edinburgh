@@ -1,5 +1,5 @@
 <div class="col-12 mb-4">
-  <img class="img-fluid project-img" src="<%- item.cover_image || theme.default_cover_image %>" alt="<%- item.title || theme.default_post_title || "Untitled" %>">
+  <img class="img-fluid project-img" src="<%- config.root %><%- item.cover_image || theme.default_cover_image %>" alt="<%- item.title || theme.default_post_title || "Untitled" %>">
 </div>
 <div class="col-lg-4 col-12 pt-3 px-4 pr-lg-5">
   <h1><%- item.title || theme.default_post_title || "Untitled" %></h1>
