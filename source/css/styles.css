@@ -2,18 +2,40 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
+form {
+	max-width: 500px;
+	margin: 0 auto;
+}
+
 button {
-  color: #000000;
+  color: #777;
 	background: #fff;
-  padding: 5px 12px 5px 12px;
-  border: solid #000000 2px;
+  padding: 4px 12px 4px 12px;
+  border: solid #777 2px;
+	transition: all 0.3s ease-in-out;
   text-decoration: none;
 }
 
 button:hover {
-	color: #fff;
-  background: #000000;
+	color: #000;
+	border: solid #000 2px;
   text-decoration: none;
+}
+
+input, textarea {
+	font-size: 0.8rem;
+  border: 1px solid #ddd;
+  background: #fff;
+  padding: 0.5rem 0.7rem;
+	margin: 5px 0;
+  transition: all 0.3s ease-in-out;
+  width: 100%;
+
+}
+
+input:focus, textarea:focus {
+  border-color: #777;
+  outline: none;
 }
 
 .portfolio-content {
