@@ -2,6 +2,8 @@
 
 Edinburgh is a clean, beautiful, and responsive portfolio theme for the Hexo static site generator.
 
+![Screenshot of Edinburgh theme](https://sharvaridesai.github.io/hexo-theme-edinburgh-demo/images/screenshot.png)
+
 ### Theme installation
 From the root directory of your Hugo site, run the following command:
 ```
