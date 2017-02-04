@@ -32,6 +32,9 @@ menu:
   Facebook: https://www.facebook.com
 ```
 
+#### Favicon
+The blog's favicon can be changed by replacing the theme's favicon image in `/themes/edinburgh/source/favicon/favicon.ico`.
+
 #### Google Analytics tracking
 The Google Analytics Tracking ID is configured in the theme's `_config.yml`.
 ```
