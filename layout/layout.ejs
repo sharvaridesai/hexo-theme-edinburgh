@@ -10,7 +10,12 @@
 
   		<div class="row">
   			<%- body %>
-  		</div>
+      </div>
+      <% if (page.total > 1) { %>
+    <nav class="page-nav">
+        <%- paginator({prev_text: '<', next_text: '>'}) %>
+    </nav>
+<% } %>
   	</div>
 
     <!-- After footer scripts -->

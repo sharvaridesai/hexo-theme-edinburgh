@@ -146,7 +146,8 @@ h1, h2, h3 {
   display: block;
   position: relative;
   max-width: none;
-  width: 100%;
+	width: 100%;
+	height: 100%;
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
   -webkit-backface-visibility: hidden;
@@ -156,4 +157,16 @@ h1, h2, h3 {
 .hovereffect:hover img {
   opacity: 0;
   filter: alpha(opacity=0);
+}
+.page-nav {
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+}
+.page-nav a,span {
+	font-size: 1.3rem;
+	font-family: 'Crimson Text', sans-serif;
+	font-weight: 300;
+	margin: 0 10px;
+	color: #000;
 }
