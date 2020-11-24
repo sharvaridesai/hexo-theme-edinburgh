@@ -5,9 +5,9 @@
   </button>
   <div class="collapse navbar-collapse text-center" id="navbarCollapse">
     <ul class="navbar-nav ml-auto my-auto">
-      <% for (var i in config.menu){ %>
+      <% for (var i in theme.menu){ %>
         <li class="nav-item">
-          <a class="nav-link" href="<%- url_for(config.menu[i]) %>"><%= i %></a>
+          <a class="nav-link" href="<%- url_for(theme.menu[i]) %>"><%= i %></a>
         </li>
       <% } %>
     </ul>
